@@ -129,7 +129,8 @@ public class Teste {
             System.out.println("Dados do imóvel velho:");
             System.out.println("Endereço:"+velho.getEndereco());
             System.out.println("Preço:"+velho.getPreco());
-            System.out.println("Valor do desconto:"+velho.getDesconto());
+            System.out.println("Preço com desconto:" + velho.precoComDesconto());
+
         }
         
 
